@@ -8,8 +8,6 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/style/style.css">
-    <!-- JS -->
-    <script src="/assets/js/main.js"></script>
     <title>Juiceable</title>
 </head>
 <body>
@@ -22,7 +20,7 @@
             <div class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link active-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">About</a>
@@ -51,8 +49,54 @@
     <!-- MAIN -->
     <main class="main">
         <section class="home">
+            <div class="home-shape-small"></div>
+            <div class="home-shape-big"></div>
+            <img src="assets/img/shape-bg.png" alt="shape image" class="home-shape-bg">
 
+
+            
+            <div class="home-container container">
+                <div class="home-data">
+                    <h1 class="home-title">
+                        Get Fresh
+                        <span>Juiceables</span>
+                        Everyday
+                    </h1>
+                    <p class="home-description">
+                        Startin at $360 per month, get <br>
+                        those benefits and more.
+                    </p>
+                    <a href="#" class="home-button">
+                        Details
+                    </a>
+                </div>
+                <div class="home-images">
+                    <img src="assets/img/liquid-fruit.png" alt="liquid image" class="home-liquid">
+                    
+                    <div class="home-juice-animate">
+                        <img src="assets/img/juice.png" alt="juice image" class="home-juice">
+                    </div>
+
+                    <img src="assets/img/apple1.png" alt="apple image" class="home-apple1">
+                    <img src="assets/img/apple2.png" alt="apple image" class="home-apple2">
+
+                    <div>
+                        <img src="assets/img/leaf.png" alt="leaf image" class="home-leaf">
+                        <img src="assets/img/leaf.png" alt="leaf image" class="home-leaf">
+                        <img src="assets/img/leaf.png" alt="leaf image" class="home-leaf">
+                        <img src="assets/img/leaf.png" alt="leaf image" class="home-leaf">
+                        <img src="assets/img/leaf.png" alt="leaf image" class="home-leaf">
+                        <img src="assets/img/leaf.png" alt="leaf image" class="home-leaf">
+
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
+      <!-- GSAP -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+      <!-- JS -->
+      <script src="assets/js/main.js"></script>
 </body>
 </html>
